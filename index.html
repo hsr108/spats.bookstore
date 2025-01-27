@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Store</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/jpg"
+      href="https://www.freeiconspng.com/thumbs/book-icon/book-icon-black-good-galleries--24.jpg"
+    />
+    <script defer src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&family=Pacifico&family=Playwrite+VN:wght@100..400&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navdiv">
+        <div class="logo">
+          <img
+            src="https://static.vecteezy.com/system/resources/previews/002/219/582/non_2x/illustration-of-book-icon-free-vector.jpg"
+            alt="bookstore"
+          />
+          <h2>BOOK STORE</h2>
+        </div>
+        <div class="navbar-elements">
+          <a href="#home">Home</a>
+          <div id="categs">
+            <div class="dropdown">
+              <p class="categ-drop">Categories</p>
+              <div class="dropdown-content">
+                <a href="#fiction">Fiction Books</a>
+                <a href="#non-fiction">Non-Fiction Books</a>
+                <a href="#drama">Drama Books</a>
+                <a href="#poetry">Poetry Books</a>
+              </div>
+            </div>
+          </div>
+          <a href="https://xyzenterprisesaps.wordpress.com/" target="_blank"
+            >About Us</a
+          >
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <section id="home">
+      <div class="upper">
+        <p><b>Deal of the Day ! !</b></p>
+      </div>
+      <div class="upper-block">
+        <div class="card upper-left-block">
+            <img
+            src="https://kitabay.com/cdn/shop/files/1ebf4f0712b9f071f3832d10df1d1992.jpg?crop=center&height=475&v=1735895742&width=294"
+            alt=""
+            />
+            <div class="upper-left-block-text">
+              <h3>Farmer Giles of Ham</h3>
+              <p class="upper-left-block-writer">
+                by Christina Scull, J.R.R. Tolkien, Wayne G. Hammond
+              </p>
+              <p class="upper-left-block-description">
+                A commemorative golden anniversary edition of Tolkien's classic
+                book, including a new introduction, a map, a copy of Tolkien's
+                unpublished short story which he expanded for publication, his
+                notes for an aborted sequel, and the original first edition
+                illustrations by Pauline Baynes.
+              </p>
+              <p class="upper-left-block-price"><del>Rs. 999</del> Rs. 499</p>
+              <h4>Hardcover</h4>
+              <p class="upper-left-block-end">Add to Wishlist</p>
+              <p class="upper-left-block-end2">Buy Now</p>
+            </div>
+        </div>
+        <div class="upper-center-block">
+          <img
+            src="https://kitabay.com/cdn/shop/files/990d0ffb9faa07563ccfed3a72015d71.jpg?v=1734423127&width=179"
+            alt=""
+          />
+          <div class="upper-center-block-text">
+            <h3>The Girls' Guide to Hunting and Fishing</h3>
+            <p class="upper-center-block-writer">by Melissa Bank</p>
+            <p class="upper-center-block-description">
+              "Let me tell you about the men I've known"... When it comes to the
+              mating game, Jane's still learning how to play. As a teenager she
+              tried to understand relationships by watching her elder brother
+              falling in and out of love, and now, older but none the wiser, she
+              embarks on her own affairs.
+            </p>
+            <p class="upper-center-block-price"><del>Rs. 599</del> Rs. 274</p>
+            <h4>Hardcover</h4>
+            <p class="upper-center-block-end">Add to Wishlist</p>
+            <p class="upper-center-block-end2">Buy Now</p>
+          </div>
+        </div>
+        <div class="upper-right-block">
+          <img
+            src="https://kitabay.com/cdn/shop/files/8791ac3f4572d054b147cdbe30032df2.jpg?crop=center&height=400&v=1735276671&width=256"
+            alt=""
+          />
+          <div class="upper-right-block-text">
+            <h3>Widening the Circle of Love</h3>
+            <p class="upper-right-block-writer">
+              by Dalai Lama XIV Bstan-dzin-rgya-mtsho
+            </p>
+            <p class="upper-left-block-description">
+              From the teachings of the world-renowned Buddhist leader, His
+              Holiness the Dalai Lama, comes a practical, seven-step guidebook
+              for developing your love for others and transforming each and
+              every one of your relationships in life.
+            </p>
+            <p class="upper-right-block-price"><del>Rs. 699</del> Rs. 321</p>
+            <h4>Hardcover</h4>
+            <p class="upper-right-block-end">Add to Wishlist</p>
+            <p class="upper-right-block-end2">Buy Now</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="fiction">
+      <div class="fiction-upper"><b> Fiction Addiction</b></div>
+      <div class="fiction-block">
+        <div class="fiction-block1">
+          <img
+            src="https://d2g9wbak88g7ch.cloudfront.net/productimages/mainimages/512/9781408728512.jpg"
+            alt=""
+          />
+          <div class="fiction-block1-text">
+            <h3>The Housemaid</h3>
+            <p class="fiction-block1-writer">by Freida McFadden</p>
+            <p class="fiction-block1-description">
+              “Welcome to the family,” Nina Winchester says as I shake her
+              elegant, manicured hand. I smile politely, gazing around the
+              marble hallway. Working here is my last chance to start fresh. I
+              can pretend to be whoever I like.
+            </p>
+            <p class="fiction-block1-price"><del>Rs. 1084</del> Rs. 824</p>
+            <h4>Hardcover</h4>
+            <p class="fiction-block1-end">Add to Wishlist</p>
+            <p class="fiction-block1-end2">Buy Now</p>
+          </div>
+        </div>
+        <div class="fiction-block2">
+          <img
+            src="https://d2g9wbak88g7ch.cloudfront.net/productimages/mainimages/908/9780399226908.jpg"
+            alt=""
+          />
+          <div class="fiction-block2-text">
+            <h3>Very Hungry Caterpillar</h3>
+            <p class="fiction-block2-writer">by Eric Carle, Tims Project</p>
+            <p class="fiction-block2-description">
+              THE all-time classic picture book, from generation to generation,
+              sold somewhere in the world every 30 seconds! A sturdy and
+              beautiful book to give as a gift for new babies, baby showers,
+              birthdays, and other new beginnings! Featuring interactive die-cut
+              pages, this board book edition is the perfect size for little
+              hands and great for teaching counting and days of the week.
+            </p>
+            <p class="fiction-block2-price"><del>Rs. 550</del> Rs. 439</p>
+            <h4>Hardcover</h4>
+            <p class="fiction-block2-end">Add to Wishlist</p>
+            <p class="fiction-block2-end2">Buy Now</p>
+          </div>
+        </div>
+        <div class="fiction-block3">
+          <img
+            src="https://www.bookswagon.com/productimages/mainimages/086/9780241252086.jpg"
+            alt=""
+          />
+          <div class="fiction-block3-text">
+            <h3>White Nights</h3>
+            <p class="fiction-block3-writer">
+              by Ronald Meyer(Translated), Fyodor Dostoyevsky
+            </p>
+            <p class="fiction-block3-description">
+              The narrator describes his experience walking in the streets of
+              Saint Petersburg. He loves the city at night, and feels
+              comfortable in it. Because all the people he is used to seeing are
+              not there, he no longer feels comfortable during the day. He drew
+              his emotions from them: if they were happy, he was happy; if they
+              were despondent, he was despondent. New faces made him feel alone.
+            </p>
+            <p class="fiction-block3-price"><del>Rs. 150</del> Rs. 143</p>
+            <h4>Hardcover</h4>
+            <p class="fiction-block3-end">Add to Wishlist</p>
+            <p class="fiction-block3-end2">Buy Now</p>
+          </div>
+        </div>
+        <div class="fiction-block4">
+          <img
+            src="https://kitabay.com/cdn/shop/files/057c495d70f372e882f34149f914819d.jpg?crop=center&height=350&v=1734415109&width=229"
+            alt=""
+          />
+          <div class="fiction-block4-text">
+            <h3>The Diabolic</h3>
+            <p class="fiction-block4-writer">by S.J. Kincaid</p>
+            <p class="fiction-block4-description">
+              Nemesis is a Diabolic . Created to protect a galactic Senator's
+              daughter, Sidonia. The girl who has grown up by her side and who
+              is as much as sister as a master. There's no one Nemesis wouldn't
+              kill to keep her safe. But when the power-mad Emperor summons
+              Sidonia to the galactic court as a hostage, there is only one way
+              for Nemesis to protect Sidonia.
+            </p>
+            <p class="fiction-block4-price"><del>Rs. 699</del> Rs. 326</p>
+            <h4>Hardcover</h4>
+            <p class="fiction-block4-end">Add to Wishlist</p>
+            <p class="fiction-block4-end2">Buy Now</p>
+          </div>
+        </div>
+        <div class="fiction-block5">
+          <img
+            src="https://kitabay.com/cdn/shop/files/4581ce880f4cf3a4570cc10b81b45ab8.jpg?crop=center&height=500&v=1734415786&width=317"
+            alt=""
+          />
+          <div class="fiction-block5-text">
+            <h3>The Futures</h3>
+            <p class="fiction-block5-writer">by Anna Pitoniak</p>
+            <p class="fiction-block5-description">
+              Julia and Evan fall in love as undergraduates at Yale. For Evan, a
+              scholarship student from a rural Canadian town, Yale is a whole
+              new world, and Julia fits perfectly into the future he's
+              envisioned for himself. After graduation, and on the eve of the
+              great financial meltdown of 2008, they move together to New York
+              City, where Evan lands a job at a hedge fund.
+            </p>
+            <p class="fiction-block5-price"><del>Rs. 499</del> Rs. 199</p>
+            <h4>Hardcover</h4>
+            <p class="fiction-block5-end">Add to Wishlist</p>
+            <p class="fiction-block5-end2">Buy Now</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="non-fiction">
+      <div class="non-fiction-upper"><b>For Non-fiction Readers</b></div>
+      <div class="non-fiction-block">
+        <div class="non-fiction-block1">
+          <img
+            src="https://kitabay.com/cdn/shop/files/b6d513d6958bbca4b9cd673a58919c47.jpg?v=1734414269&width=286"
+            alt=""
+          />
+          <div class="non-fiction-block1-text">
+            <h3>Prince of Ayodhya (Ramayana)</h3>
+            <p class="non-fiction-block1-writer">by Ashok K. Banker</p>
+            <p class="non-fiction-block1-description">
+              The original Ramayana was written three thousand years ago. Now,
+              with breathtaking imagination and brilliant storytelling, Ashok K.
+              Banker has recreated this epic tale for modern readers everywhere
+              In this first book of the Ramayana, it is predicted Ayodhya,
+              legendary capital of warriors and seers, will soon be a wasteland
+              of ashes and blood.
+            </p>
+            <p class="non-fiction-block1-price"><del>Rs. 499</del> Rs. 227</p>
+            <h4>Hardcover</h4>
+            <p class="non-fiction-block1-end">Add to Wishlist</p>
+            <p class="non-fiction-block1-end2">Buy Now</p>
+          </div>
+        </div>
+        <div class="non-fiction-block2">
+          <img
+            src="https://kitabay.com/cdn/shop/files/65e55c2fd70bc3f139e29a6f0db65cea.jpg?v=1734348631&width=302"
+            alt=""
+          />
+          <div class="non-fiction-block2-text">
+            <h3>THE DARK PRINCE</h3>
+            <p class="non-fiction-block2-writer">by David Gemmell</p>
+            <p class="non-fiction-block2-description">
+              The chaos spirit had chosen the child Alexander to be its human
+              host. But Parmenion, most powerful warrior of ancient Greece, had
+              won a small victory over the darkness that sought to rule through
+              Alexander. The boy's soul had not been destroyed by evil, but
+              instead had merged with it -- and now Parmenion aided Alexander in
+              the battle between light and dark that constantly raged within
+              him.
+            </p>
+            <p class="non-fiction-block2-price"><del>Rs. 599</del> Rs. 233</p>
+            <h4>Hardcover</h4>
+            <p class="non-fiction-block2-end">Add to Wishlist</p>
+            <p class="non-fiction-block2-end2">Buy Now</p>
+          </div>
+        </div>
+        <div class="non-fiction-block3">
+          <img
+            src="https://kitabay.com/cdn/shop/files/2b3a219e85be6907f455d766ab68bac9.jpg?v=1734082605&width=322"
+            alt=""
+          />
+          <div class="non-fiction-block3-text">
+            <h3>Xalone on a Wide Wide Sea Pb</h3>
+            <p class="non-fiction-block3-writer">by Michael Morpurgo</p>
+            <p class="non-fiction-block3-description">
+              How far would you go to find yourself? There were dozens of us on
+              the ship, all up on deck for the leaving of Liverpool, gulls
+              wheeling and crying over our heads, calling good-bye! That is all
+              I remember of England. When six-year-old orphan Arthur Hobhouse is
+              shipped to Australia after WWII he loses his sister, his country
+              and everything he knows.
+            </p>
+            <p class="non-fiction-block3-price"><del>Rs. 499</del> Rs. 199</p>
+            <h4>Hardcover</h4>
+            <p class="non-fiction-block3-end">Add to Wishlist</p>
+            <p class="non-fiction-block3-end2">Buy Now</p>
+          </div>
+        </div>
+        <div class="non-fiction-block4">
+          <img
+            src="https://kitabay.com/cdn/shop/files/3334dc525d14e54e46009a7827c03916.jpg?v=1732870307&width=325"
+            alt=""
+          />
+          <div class="non-fiction-block4-text">
+            <h3>The Nazi Hunters</h3>
+            <p class="non-fiction-block4-writer">by Damien Lewis</p>
+            <p class="non-fiction-block4-description">
+              The Nazi Hunters is the incredible, hitherto untold story of the
+              most secret chapter in the SAS's history. Officially, the world's
+              most elite special forces unit was dissolved at the end of the
+              Second World War, and not reactivated until the 1950s. Among their
+              last actions was a disastrous commando raid into occupied France
+              in 1944, which ended in the capture, torture and execution of 31
+              soldiers.
+            </p>
+            <p class="non-fiction-block4-price"><del>Rs. 599</del> Rs. 236</p>
+            <h4>Hardcover</h4>
+            <p class="non-fiction-block4-end">Add to Wishlist</p>
+            <p class="non-fiction-block4-end2">Buy Now</p>
+          </div>
+        </div>
+        <div class="non-fiction-block5">
+          <img
+            src="https://kitabay.com/cdn/shop/files/5cfa453755138cf8406b899cba362c83.jpg?v=1714559752&width=230"
+            alt=""
+          />
+          <div class="non-fiction-block5-text">
+            <h3>A Man Without Breath</h3>
+            <p class="non-fiction-block5-writer">by Philip Kerr</p>
+            <p class="non-fiction-block5-description">
+              Berlin, March, 1943. A month has passed since the stunning defeat
+              at Stalingrad. Though Hitler insists Germany is winning the war,
+              commanders on the ground know better. Morale is low, discipline at
+              risk. Now word has reached Berlin of a Red massacre of Polish
+              officers in the Katyn Forest near Smolensk. If true, the message
+              it would send to the troops is clear: Fight on or risk certain
+              death.
+            </p>
+            <p class="non-fiction-block5-price"><del>Rs. 499</del> Rs. 199</p>
+            <h4>Hardcover</h4>
+            <p class="non-fiction-block5-end">Add to Wishlist</p>
+            <p class="non-fiction-block5-end2">Buy Now</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="drama">
+      <div class="drama-upper"><b>Some Salt, Some Pepper & Some Drama</b></div>
+      <div class="drama-block">
+        <div class="drama-block1">
+          <img
+            src="https://kitabay.com/cdn/shop/files/976a6547b7614b13d52623d9be96affa.jpg?v=1717133457&width=324"
+            alt=""
+          />
+          <div class="drama-block1-text">
+            <h3>Drama Teen</h3>
+            <p class="drama-block1-writer">by Lina Ashar</p>
+            <p class="drama-block1-description">
+              Teenage years are the most difficult and puzzling years for both
+              the teenager and his or her parent. This is when children begin to
+              develop their own identity, seek individualism and veer away from
+              their parents. They can be rebellious, defy norms and traditions,
+              and stay cooped up in their rooms for days on end. Everything the
+              parent says is anathema to them.
+            </p>
+            <p class="drama-block1-price"><del>Rs. 299</del> Rs. 199</p>
+            <h4>Hardcover</h4>
+            <p class="drama-block1-end">Add to Wishlist</p>
+            <p class="drama-block1-end2">Buy Now</p>
+          </div>
+        </div>
+        <div class="drama-block2">
+          <img
+            src="https://kitabay.com/cdn/shop/products/ef47b7dd21adbd638640bf5c0c7f740f.jpg?v=1702373496&width=128"
+            alt=""
+          />
+          <div class="drama-block2-text">
+            <h3>Mothers and Daughters</h3>
+            <p class="drama-block2-writer">by Erica James</p>
+            <p class="drama-block2-description">
+              A sweeping family drama of old secrets and new beginnings... 'A
+              satisfying treat' Adele Parks, Platinum 'A compelling family
+              drama' Sarah Morgan 'Wise and warm with plenty of twists and
+              turns' Rachel Hore 'Emotional and uplifting' Veronica Henry
+              'Captivating and vivid' Miranda Dickinson
+            </p>
+            <p class="drama-block2-price"><del>Rs. 599</del> Rs. 199</p>
+            <h4>Hardcover</h4>
+            <p class="drama-block2-end">Add to Wishlist</p>
+            <p class="drama-block2-end2">Buy Now</p>
+          </div>
+        </div>
+        <div class="drama-block3">
+          <img
+            src="https://kitabay.com/cdn/shop/products/ca54126584092dc073c149a015d39e59.jpg?v=1702372816&width=319"
+            alt=""
+          />
+          <div class="drama-block3-text">
+            <h3>Bleak House</h3>
+            <p class="drama-block3-writer">by Charles Dickens</p>
+            <p class="drama-block3-description">
+              Charles Dickens' great depiction of Victorian London, revolving
+              around the case of Jarndyce and Jarndyce and laced with secrets,
+              horrific crimes and love affairs, comes to the BBC this Autumn in
+              a major new drama.
+            </p>
+            <p class="drama-block3-price"><del>Rs. 599</del> Rs. 299</p>
+            <h4>Hardcover</h4>
+            <p class="drama-block3-end">Add to Wishlist</p>
+            <p class="drama-block3-end2">Buy Now</p>
+          </div>
+        </div>
+        <div class="drama-block4">
+          <img
+            src="https://kitabay.com/cdn/shop/files/bd4d705af7f0101858a8befe9dc8d4f8.jpg?v=1715163856&width=1048"
+            alt=""
+          />
+          <div class="drama-block4-text">
+            <h3>Secrets</h3>
+            <p class="drama-block4-writer">by Danielle Steel</p>
+            <p class="drama-block4-description">
+              The stars of a new TV series called "Manhattan" share their
+              secrets with millions. Offstage they are ordinary people with
+              homes and dreams, lives and loves, every bit as real, and as the
+              viewers watch the drama unfold the actors share their passion and
+              pain in the performance of their lives.
+            </p>
+            <p class="drama-block4-price"><del>Rs. 499</del> Rs. 165</p>
+            <h4>Hardcover</h4>
+            <p class="drama-block4-end">Add to Wishlist</p>
+            <p class="drama-block4-end2">Buy Now</p>
+          </div>
+        </div>
+        <div class="drama-block5">
+          <img
+          src="https://kitabay.com/cdn/shop/files/92e7e028c1c8e68ef59933f01d9407b0.jpg?v=1714633586&width=262
+          alt="">
+          <div class="drama-block5-text">
+            <h3>Birdsong</h3>
+            <p class="drama-block5-writer">by Sebastian Faulks</p>
+            <p class="drama-block5-description">
+              Set before and during the Great War, Birdsong captures the drama
+              of that era on both a national and a personal scale. It is the
+              story of Stephen, a young Englishman, who arrives in Amiens in
+              1910. Over the course of the novel he suffers a series of
+              traumatic experiences, from the clandestine love affair that tears
+              apart the family with whom he lives, to the unprecedented
+              experiences of the war itself.
+            </p>
+            <p class="drama-block5-price"><del>Rs. 699</del> Rs. 325</p>
+            <h4>Hardcover</h4>
+            <p class="drama-block5-end">Add to Wishlist</p>
+            <p class="drama-block5-end2">Buy Now</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="poetry">
+      <div class="poetry-upper"><b>For My Silent Readers</b></div>
+      <div class="poetry-block">
+        <div class="poetry-block1">
+          <img
+            src="https://kitabay.com/cdn/shop/files/5b7e14db195a4462c6c4b3b6a0e029fc.jpg?v=1719813611&width=324"
+            alt=""
+          />
+          <h3>Eleven Ways to Love</h3>
+          <div class="poetry-block1-text">
+            <p class="poetry-block1-writer">by गुलज़ार</p>
+            <p class="drama-block1-description">
+              People have been telling their love stories for thousands of
+              years. It is the greatest common human experience. And yet, love
+              stories coach us to believe that love is selective, somehow, that
+              it can be boxed in and easily defined. This is a collection of
+              eleven remarkable essays that widen the frame of reference.
+            </p>
+            <h4>Hardcover</h4>
+            <p class="poetry-block1-price"><del>Rs. 499</del> Rs. 425</p>
+            <p class="poetry-block1-end">Add to Wishlist</p>
+            <p class="poetry-block1-end2">Buy Now</p>
+          </div>
+        </div>
+        <div class="poetry-block2">
+          <img
+            src="https://kitabay.com/cdn/shop/files/3bade37c7ef135b8757b21ace63d50ec.jpg?v=1717056335&width=260"
+            alt=""
+          />
+          <h3>Olga Carries on</h3>
+          <div class="poetry-block2-text">
+            <p class="poetry-block2-writer">by Michael Bond</p>
+            <p class="poetry-block2-description">
+              'Wheeeeeeeee!' squeaked Olga. 'Ombomstiggywoggles and
+              Wheeeeeeeeee! Wheeeeeeeeeeee! Wheeeeeeeeeeeeeeeee!' What can it
+              mean? Olga isn't telling, but Noel, Fangio, and Graham are very
+              impressed. So are Fircone and Raisin the newcomers to the Sawdust
+              family home who arrive just in time to hear Olga's first attempts
+              at poetry.
+            </p>
+            <p class="poetry-block2-price"><del>Rs. 499</del> Rs. 180</p>
+            <h4>Hardcover</h4>
+            <p class="poetry-block2-end">Add to Wishlist</p>
+            <p class="poetry-block2-end2">Buy Now</p>
+          </div>
+        </div>
+        <div class="poetry-block3">
+          <img
+            src="https://kitabay.com/cdn/shop/files/08a98df37a9a62586e1c1a46036db18c_0fc479e4-be3f-4217-bd63-ea30d165acee.jpg?v=1715762649&width=1524"
+            alt=""
+          />
+          <div class="poetry-block3-text">
+            <h3>Another Life</h3>
+            <p class="poetry-block3-writer">by Jodie Chapman</p>
+            <p class="poetry-block3-description">
+              She could be the girl dancing on tables one night, and the next
+              she'd be hiding in the shadows. Just when I thought I understood
+              her, she would melt away and become a completely new person, and
+              I'd have to start all over again. That's how it was with Anna.
+              _______ Nick and Anna work the same summer job at their local
+              cinema.
+            </p>
+            <p class="poetry-block3-price"><del>Rs. 499</del> Rs. 165</p>
+            <h4>Hardcover</h4>
+            <p class="poetry-block3-end">Add to Wishlist</p>
+            <p class="poetry-block3-end2">Buy Now</p>
+          </div>
+        </div>
+        <div class="poetry-block4">
+          <img
+            src="https://kitabay.com/cdn/shop/files/e1d23ef047fe73210ce2dc3b778a7a5c.jpg?v=1716373835&width=316"
+            alt=""
+          />
+          <div class="poetry-block4-text">
+            <h3>Evening</h3>
+            <p class="poetry-block4-writer">by Susan Minot</p>
+            <p class="poetry-block4-description">
+              As Ann Lord lies on her deathbed, her daughter delivers a balsam
+              pillow from the attic. At first the ailing woman is confused, but
+              suddenly the scent reminds her of the "wild tumult" she
+              experienced 40 years earlier: Something stole into her as she
+              walked in the dark, a dream she'd had long ago. The air was so
+              black she was unable to see her arms, it was a warm summer night.
+            </p>
+            <p class="poetry-block4-price"><del>Rs. 499</del> Rs. 199</p>
+            <h4>Hardcover</h4>
+            <p class="poetry-block4-end">Add to Wishlist</p>
+            <p class="poetry-block4-end2">Buy Now</p>
+          </div>
+        </div>
+        <div class="poetry-block5">
+          <img
+            src="https://kitabay.com/cdn/shop/files/aeedbeb013135353c69755582d6b2d66.jpg?v=1711094319&width=352"
+            alt=""
+          />
+          <div class="poetry-block5-text">
+            <h3>Writers' & Artists' Yearbook 2006</h3>
+            <p class="poetry-block5-writer">by A&, C Black, Terry Pratchett</p>
+            <p class="poetry-block5-description">
+              The best selling guide to markets in all areas of the media,
+              completely revised and updated, containing 8 new articles and a
+              foreword by top author Terry Pratchett. New articles: -
+              Self-publishing - G.P. Taylor - Year-in-View of the publishing
+              industry - Joel Ricketts - How to publicise your book - Isabel
+              Losada
+            </p>
+            <p class="poetry-block5-price"><del>Rs. 599</del> Rs. 249</p>
+            <h4>Hardcover</h4>
+            <p class="poetry-block5-end">Add to Wishlist</p>
+            <p class="poetry-block5-end2">Buy Now</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2 class="contactHeading">Contact Us</h2>
+      <div class="formToContact">
+        <div>
+          <p class="contactName">Your Name</p>
+          <input
+            class="contactName"
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter your Full Name"
+          />
+        </div>
+        <div>
+          <p class="contactPhone">Phone Number</p>
+          <input
+            class="contactPhone"
+            type="text"
+            name="phone"
+            id="phone"
+            placeholder="Enter your Phone Number"
+          />
+        </div>
+        <div>
+          <p class="contactEmail">E-Mail Address</p>
+          <input
+            class="contactEmail"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your E-Mail Address"
+          />
+        </div>
+      </div>
+      <button class="btn">Submit</button>
+    </section>
+
+    <footer>
+      <div class="footer">
+        <p>© Copyright 2025 - XYZ Enterprises  All Rights Reserved</p>
+        <a href="https://www.linkedin.com/in/harshit-singh-rathore-430794315"
+          >LinkedIn</a
+        >
+        |
+        <a href="https://github.com/hsr108">Github</a>
+        <br />
+        <a href="">Terms & Conditions</a> |
+        <a href="">Privacy Policy</a>
+        <p>fake@email.com</p>
+      </div>
+    </footer>
+  </body>
+</html>
