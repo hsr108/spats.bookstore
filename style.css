@@ -18,18 +18,22 @@
 
 .logo{
     display: flex;
-    color: rgb(26, 222, 49);
+    color: rgb(255, 255, 255);
+    width: 300px;
 }
 
 .logo h2{
     padding: 15px 2px;
+    cursor: none;
 }
 
 .navbar img{
     width: 50px;
+    height: 50px;
     align-items: center;
     padding-top: 5px;
     border-radius: 50px;
+    cursor: none;
 }
 
 .navbar-elements{
@@ -41,6 +45,10 @@
     font-family: "Ubuntu", serif;
     font-weight: 500;
     font-style: italic;
+}
+
+.navDet{
+    display: flex;
 }
 
 .navbar a{
@@ -60,6 +68,7 @@
 .navbar-elements{
     display: flex;
     color: white;
+    width: 500px;
 }
 
 .dropdown{
@@ -115,11 +124,11 @@
 .search-bar{
     display: flex;
     width: 900px;
-    justify-content: start;
+    justify-content: end;
+    height: 65px;
 }
 
 .search-bar input{
-    /* border-radius: 50px; */
     margin: 2px 0px;
     padding: 0px 30% 0px 2%;
 }
@@ -142,7 +151,7 @@
 }
 
 #home{
-    background-image: linear-gradient(black,green,rgba(255, 160, 155,0.36));
+    background-image: linear-gradient(black,#9BC995,rgba(255, 160, 155,0.36));
 }
 
 .upper{
@@ -153,6 +162,7 @@
     font-family: "Pattaya", serif;
     font-weight: 400;
     font-style: normal;
+    cursor: none;
 }
 
 .upper p:hover{
@@ -167,15 +177,16 @@
 
 .upper-left-block, .upper-center-block, .upper-right-block{
     width: 50%;
-    background-color: #F8E7F6;
+    background-color: #98B9AB;
     margin: 2% 8% 2%;
     justify-content: start;
     border-radius: 10px;
 }
 
 .upper-left-block:hover, .upper-center-block:hover, .upper-right-block:hover{
-    background-color: rgb(55, 255, 0);
+    background-color: #5171A5;
     display: inline-block;
+    box-shadow: 5px 5px 10px rgb(31, 31, 31);
 }
 
 .upper-left-block-writer, .upper-center-block-writer, .upper-right-block-writer{
@@ -200,7 +211,7 @@
     display: block;
     margin: 30px 24% 20px;
     border-radius: 10px;
-    cursor: pointer;
+    cursor: not-allowed;
 }
 
 .upper-left-block-text, .upper-center-block-text, .upper-right-block-text{
@@ -214,10 +225,11 @@
 .upper-left-block-end, .upper-center-block-end, .upper-right-block-end{
     text-align: center;
     font-size: 20px;
-    background-color: #86a4ff;
+    background-color: #3F3047;
     cursor: pointer;
     margin: 5px 0px;
     border-radius: 10px;
+    color: rgb(29, 165, 1);
 }
 
 .upper-left-block-end:hover, .upper-center-block-end:hover, .upper-right-block-end:hover{
@@ -228,9 +240,10 @@
 .upper-left-block-end2, .upper-center-block-end2, .upper-right-block-end2{
     text-align: center;
     font-size: 20px;
-    background-color: #86a4ff;
+    background-color: #3F3047;
     cursor: pointer;
     border-radius: 10px;
+    color: rgb(29, 165, 1);
 }
 
 .upper-left-block-end2:hover, .upper-center-block-end2:hover, .upper-right-block-end2:hover{
@@ -261,10 +274,12 @@
     background-color: #F8F3D4;
     margin:  2%;
     width: 16%;
+    border-radius: 10px;
 }
 
 .fiction-block1:hover, .fiction-block2:hover, .fiction-block3:hover, .fiction-block4:hover, .fiction-block5:hover{
-    background-color: #F6416C;
+    background-color: #ffbdcc;
+    box-shadow: 5px 5px 10px rgb(31, 31, 31);
 }
 
 .fiction-block1-writer, .fiction-block2-writer, .fiction-block3-writer, .fiction-block4-writer, .fiction-block5-writer{
@@ -289,6 +304,7 @@
     display: block;
     margin: 30px 24% 20px;
     border-radius: 10px;
+    cursor: not-allowed;
 }
 
 .fiction-block1-text, .fiction-block2-text, .fiction-block3-text, .fiction-block4-text, .fiction-block5-text{
@@ -349,10 +365,12 @@
     background-color: #809D3C;
     margin:  2%;
     width: 16%;
+    border-radius: 10px;
 }
 
 .non-fiction-block1:hover, .non-fiction-block2:hover, .non-fiction-block3:hover, .non-fiction-block4:hover, .non-fiction-block5:hover{
     background-color: #F4FFC3;
+    box-shadow: 5px 5px 10px rgb(31, 31, 31);
 }
 
 .non-fiction-block1-writer, .non-fiction-block2-writer, .non-fiction-block3-writer, .non-fiction-block4-writer, .non-fiction-block5-writer{
@@ -377,6 +395,7 @@
     display: block;
     margin: 30px 24% 20px;
     border-radius: 10px;
+    cursor: not-allowed;
 }
 
 .non-fiction-block1-text, .non-fiction-block2-text, .non-fiction-block3-text, .non-fiction-block4-text, .non-fiction-block5-text{
@@ -437,10 +456,12 @@
     background-color: #D4F6FF;
     margin:  2%;
     width: 16%;
+    border-radius: 10px;
 }
 
 .drama-block1:hover, .drama-block2:hover, .drama-block3:hover, .drama-block4:hover, .drama-block5:hover{
-    background-color: #FFDDAE;
+    background-color: #a9ecff;
+    box-shadow: 5px 5px 10px rgb(31, 31, 31);
 }
 
 .drama-block1-writer, .drama-block2-writer, .drama-block3-writer, .drama-block4-writer, .drama-block5-writer{
@@ -465,6 +486,7 @@
     display: block;
     margin: 30px 24% 20px;
     border-radius: 10px;
+    cursor: not-allowed;
 }
 
 .drama-block1-text, .drama-block2-text, .drama-block3-text, .drama-block4-text, .drama-block5-text{
@@ -525,10 +547,12 @@
     background-color: #E5D9F2;
     margin:  2%;
     width: 16%;
+    border-radius: 10px;
 }
 
 .poetry-block1:hover, .poetry-block2:hover, .poetry-block3:hover, .poetry-block4:hover, .poetry-block5:hover{
     background-color: #CDC1FF;
+    box-shadow: 5px 5px 10px rgb(31, 31, 31);
 }
 
 .poetry-block1-writer, .poetry-block2-writer, .poetry-block3-writer, .poetry-block4-writer, .poetry-block5-writer{
@@ -553,6 +577,7 @@
     display: block;
     margin: 30px 24% 20px;
     border-radius: 10px;
+    cursor: not-allowed;
 }
 
 .poetry-block1-text, .poetry-block2-text, .poetry-block3-text, .poetry-block4-text, .poetry-block5-text{

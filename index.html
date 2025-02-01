@@ -6,6 +6,11 @@
     <title>Book Store</title>
     <link rel="stylesheet" href="style.css" />
     <link
+      rel="stylesheet"
+      media="screen and (max-width: 1050px)"
+      href="phone.css"
+    />
+    <link
       rel="icon"
       type="image/jpg"
       href="https://www.freeiconspng.com/thumbs/book-icon/book-icon-black-good-galleries--24.jpg"
@@ -19,39 +24,49 @@
     />
   </head>
   <body>
-    <nav class="navbar">
+    <nav class="navbar hNavPhone">
       <div class="navdiv">
-        <div class="logo">
-          <img
-            src="https://static.vecteezy.com/system/resources/previews/002/219/582/non_2x/illustration-of-book-icon-free-vector.jpg"
-            alt="bookstore"
-          />
-          <h2>BOOK STORE</h2>
-        </div>
-        <div class="navbar-elements">
-          <a href="#home">Home</a>
-          <div id="categs">
-            <div class="dropdown">
-              <p class="categ-drop">Categories</p>
-              <div class="dropdown-content">
-                <a href="#fiction">Fiction Books</a>
-                <a href="#non-fiction">Non-Fiction Books</a>
-                <a href="#drama">Drama Books</a>
-                <a href="#poetry">Poetry Books</a>
+        <div class="navDet">
+          <div class="logo">
+            <img
+              src="https://static.vecteezy.com/system/resources/previews/002/219/582/non_2x/illustration-of-book-icon-free-vector.jpg"
+              alt="bookstore"
+            />
+            <h2>BOOK STORE</h2>
+          </div>
+          <div class="navbar-elements">
+            <a href="#home">Home</a>
+            <div id="categs">
+              <div class="dropdown">
+                <p class="categ-drop">Categories</p>
+                <div class="dropdown-content">
+                  <a href="#fiction">Fiction Books</a>
+                  <a href="#non-fiction">Non-Fiction Books</a>
+                  <a href="#drama">Drama Books</a>
+                  <a href="#poetry">Poetry Books</a>
+                </div>
               </div>
             </div>
+            <a href="https://xyzenterprisesaps.wordpress.com/" target="_blank"
+              >About Us</a
+            >
+            <a href="#contact">Contact</a>
           </div>
-          <a href="https://xyzenterprisesaps.wordpress.com/" target="_blank"
-            >About Us</a
-          >
-          <a href="#contact">Contact</a>
         </div>
         <div class="search-bar">
           <input type="search" name="searchBar" id="demo" placeholder="" />
           <button class="search-icon">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFFHpTcjlzeOdYQbuL3cHwx6y1leNg2YXJig&s" alt="">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFFHpTcjlzeOdYQbuL3cHwx6y1leNg2YXJig&s"
+              alt=""
+            />
           </button>
         </div>
+      </div>
+      <div class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
       </div>
     </nav>
 
@@ -79,8 +94,8 @@
             </p>
             <p class="upper-left-block-price"><del>Rs. 999</del> Rs. 499</p>
             <h4>Hardcover</h4>
-            <p class="upper-left-block-end">Add to Wishlist</p>
-            <p class="upper-left-block-end2">Buy Now</p>
+            <p class="upper-left-block-end" onclick="alert('Added To Wishlist')">Add to Wishlist</p>
+            <p class="upper-left-block-end2" onclick="alert('Sorry! This is just an Demo Webpage.')">Buy Now</p>
           </div>
         </div>
         <div class="upper-center-block">
@@ -100,8 +115,8 @@
             </p>
             <p class="upper-center-block-price"><del>Rs. 599</del> Rs. 274</p>
             <h4>Hardcover</h4>
-            <p class="upper-center-block-end">Add to Wishlist</p>
-            <p class="upper-center-block-end2">Buy Now</p>
+            <p class="upper-center-block-end" onclick="alert('Added To Wishlist')">Add to Wishlist</p>
+            <p class="upper-center-block-end2" onclick="alert('Sorry! This is just an Demo Webpage.')">Buy Now</p>
           </div>
         </div>
         <div class="upper-right-block">
@@ -122,8 +137,8 @@
             </p>
             <p class="upper-right-block-price"><del>Rs. 699</del> Rs. 321</p>
             <h4>Hardcover</h4>
-            <p class="upper-right-block-end">Add to Wishlist</p>
-            <p class="upper-right-block-end2">Buy Now</p>
+            <p class="upper-right-block-end" onclick="alert('Added To Wishlist')">Add to Wishlist</p>
+            <p class="upper-right-block-end2" onclick="alert('Sorry! This is just an Demo Webpage.')">Buy Now</p>
           </div>
         </div>
       </div>
@@ -148,8 +163,8 @@
             </p>
             <p class="fiction-block1-price"><del>Rs. 1084</del> Rs. 824</p>
             <h4>Hardcover</h4>
-            <p class="fiction-block1-end">Add to Wishlist</p>
-            <p class="fiction-block1-end2">Buy Now</p>
+            <p class="fiction-block1-end" onclick="alert('Added To Wishlist')">Add to Wishlist</p>
+            <p class="fiction-block1-end2" onclick="alert('Sorry! This is just an Demo Webpage.')">Buy Now</p>
           </div>
         </div>
         <div class="fiction-block2">
@@ -170,8 +185,8 @@
             </p>
             <p class="fiction-block2-price"><del>Rs. 550</del> Rs. 439</p>
             <h4>Hardcover</h4>
-            <p class="fiction-block2-end">Add to Wishlist</p>
-            <p class="fiction-block2-end2">Buy Now</p>
+            <p class="fiction-block2-end" onclick="alert('Added To Wishlist')">Add to Wishlist</p>
+            <p class="fiction-block2-end2" onclick="alert('Sorry! This is just an Demo Webpage.')">Buy Now</p>
           </div>
         </div>
         <div class="fiction-block3">
@@ -194,8 +209,8 @@
             </p>
             <p class="fiction-block3-price"><del>Rs. 150</del> Rs. 143</p>
             <h4>Hardcover</h4>
-            <p class="fiction-block3-end">Add to Wishlist</p>
-            <p class="fiction-block3-end2">Buy Now</p>
+            <p class="fiction-block3-end" onclick="alert('Added To Wishlist')">Add to Wishlist</p>
+            <p class="fiction-block3-end2" onclick="alert('Sorry! This is just an Demo Webpage.')">Buy Now</p>
           </div>
         </div>
         <div class="fiction-block4">
@@ -216,8 +231,8 @@
             </p>
             <p class="fiction-block4-price"><del>Rs. 699</del> Rs. 326</p>
             <h4>Hardcover</h4>
-            <p class="fiction-block4-end">Add to Wishlist</p>
-            <p class="fiction-block4-end2">Buy Now</p>
+            <p class="fiction-block4-end" onclick="alert('Added To Wishlist')">Add to Wishlist</p>
+            <p class="fiction-block4-end2" onclick="alert('Sorry! This is just an Demo Webpage.')">Buy Now</p>
           </div>
         </div>
         <div class="fiction-block5">
@@ -238,8 +253,8 @@
             </p>
             <p class="fiction-block5-price"><del>Rs. 499</del> Rs. 199</p>
             <h4>Hardcover</h4>
-            <p class="fiction-block5-end">Add to Wishlist</p>
-            <p class="fiction-block5-end2">Buy Now</p>
+            <p class="fiction-block5-end" onclick="alert('Added To Wishlist')">Add to Wishlist</p>
+            <p class="fiction-block5-end2" onclick="alert('Sorry! This is just an Demo Webpage.')">Buy Now</p>
           </div>
         </div>
       </div>
@@ -266,8 +281,8 @@
             </p>
             <p class="non-fiction-block1-price"><del>Rs. 499</del> Rs. 227</p>
             <h4>Hardcover</h4>
-            <p class="non-fiction-block1-end">Add to Wishlist</p>
-            <p class="non-fiction-block1-end2">Buy Now</p>
+            <p class="non-fiction-block1-end" onclick="alert('Added To Wishlist')">Add to Wishlist</p>
+            <p class="non-fiction-block1-end2" onclick="alert('Sorry! This is just an Demo Webpage.')">Buy Now</p>
           </div>
         </div>
         <div class="non-fiction-block2">
@@ -289,8 +304,8 @@
             </p>
             <p class="non-fiction-block2-price"><del>Rs. 599</del> Rs. 233</p>
             <h4>Hardcover</h4>
-            <p class="non-fiction-block2-end">Add to Wishlist</p>
-            <p class="non-fiction-block2-end2">Buy Now</p>
+            <p class="non-fiction-block2-end" onclick="alert('Added To Wishlist')">Add to Wishlist</p>
+            <p class="non-fiction-block2-end2" onclick="alert('Sorry! This is just an Demo Webpage.')">Buy Now</p>
           </div>
         </div>
         <div class="non-fiction-block3">
@@ -311,8 +326,8 @@
             </p>
             <p class="non-fiction-block3-price"><del>Rs. 499</del> Rs. 199</p>
             <h4>Hardcover</h4>
-            <p class="non-fiction-block3-end">Add to Wishlist</p>
-            <p class="non-fiction-block3-end2">Buy Now</p>
+            <p class="non-fiction-block3-end" onclick="alert('Added To Wishlist')">Add to Wishlist</p>
+            <p class="non-fiction-block3-end2" onclick="alert('Sorry! This is just an Demo Webpage.')">Buy Now</p>
           </div>
         </div>
         <div class="non-fiction-block4">
@@ -334,8 +349,8 @@
             </p>
             <p class="non-fiction-block4-price"><del>Rs. 599</del> Rs. 236</p>
             <h4>Hardcover</h4>
-            <p class="non-fiction-block4-end">Add to Wishlist</p>
-            <p class="non-fiction-block4-end2">Buy Now</p>
+            <p class="non-fiction-block4-end" onclick="alert('Added To Wishlist')">Add to Wishlist</p>
+            <p class="non-fiction-block4-end2" onclick="alert('Sorry! This is just an Demo Webpage.')">Buy Now</p>
           </div>
         </div>
         <div class="non-fiction-block5">
@@ -357,8 +372,8 @@
             </p>
             <p class="non-fiction-block5-price"><del>Rs. 499</del> Rs. 199</p>
             <h4>Hardcover</h4>
-            <p class="non-fiction-block5-end">Add to Wishlist</p>
-            <p class="non-fiction-block5-end2">Buy Now</p>
+            <p class="non-fiction-block5-end" onclick="alert('Added To Wishlist')">Add to Wishlist</p>
+            <p class="non-fiction-block5-end2" onclick="alert('Sorry! This is just an Demo Webpage.')">Buy Now</p>
           </div>
         </div>
       </div>
@@ -385,8 +400,8 @@
             </p>
             <p class="drama-block1-price"><del>Rs. 299</del> Rs. 199</p>
             <h4>Hardcover</h4>
-            <p class="drama-block1-end">Add to Wishlist</p>
-            <p class="drama-block1-end2">Buy Now</p>
+            <p class="drama-block1-end" onclick="alert('Added To Wishlist')">Add to Wishlist</p>
+            <p class="drama-block1-end2" onclick="alert('Sorry! This is just an Demo Webpage.')">Buy Now</p>
           </div>
         </div>
         <div class="drama-block2">
@@ -406,8 +421,8 @@
             </p>
             <p class="drama-block2-price"><del>Rs. 599</del> Rs. 199</p>
             <h4>Hardcover</h4>
-            <p class="drama-block2-end">Add to Wishlist</p>
-            <p class="drama-block2-end2">Buy Now</p>
+            <p class="drama-block2-end" onclick="alert('Added To Wishlist')">Add to Wishlist</p>
+            <p class="drama-block2-end2" onclick="alert('Sorry! This is just an Demo Webpage.')">Buy Now</p>
           </div>
         </div>
         <div class="drama-block3">
@@ -426,8 +441,8 @@
             </p>
             <p class="drama-block3-price"><del>Rs. 599</del> Rs. 299</p>
             <h4>Hardcover</h4>
-            <p class="drama-block3-end">Add to Wishlist</p>
-            <p class="drama-block3-end2">Buy Now</p>
+            <p class="drama-block3-end" onclick="alert('Added To Wishlist')">Add to Wishlist</p>
+            <p class="drama-block3-end2" onclick="alert('Sorry! This is just an Demo Webpage.')">Buy Now</p>
           </div>
         </div>
         <div class="drama-block4">
@@ -447,8 +462,8 @@
             </p>
             <p class="drama-block4-price"><del>Rs. 499</del> Rs. 165</p>
             <h4>Hardcover</h4>
-            <p class="drama-block4-end">Add to Wishlist</p>
-            <p class="drama-block4-end2">Buy Now</p>
+            <p class="drama-block4-end" onclick="alert('Added To Wishlist')">Add to Wishlist</p>
+            <p class="drama-block4-end2" onclick="alert('Sorry! This is just an Demo Webpage.')">Buy Now</p>
           </div>
         </div>
         <div class="drama-block5">
@@ -469,8 +484,8 @@
             </p>
             <p class="drama-block5-price"><del>Rs. 699</del> Rs. 325</p>
             <h4>Hardcover</h4>
-            <p class="drama-block5-end">Add to Wishlist</p>
-            <p class="drama-block5-end2">Buy Now</p>
+            <p class="drama-block5-end" onclick="alert('Added To Wishlist')">Add to Wishlist</p>
+            <p class="drama-block5-end2" onclick="alert('Sorry! This is just an Demo Webpage.')">Buy Now</p>
           </div>
         </div>
       </div>
@@ -496,8 +511,8 @@
             </p>
             <h4>Hardcover</h4>
             <p class="poetry-block1-price"><del>Rs. 499</del> Rs. 425</p>
-            <p class="poetry-block1-end">Add to Wishlist</p>
-            <p class="poetry-block1-end2">Buy Now</p>
+            <p class="poetry-block1-end" onclick="alert('Added To Wishlist')">Add to Wishlist</p>
+            <p class="poetry-block1-end2" onclick="alert('Sorry! This is just an Demo Webpage.')">Buy Now</p>
           </div>
         </div>
         <div class="poetry-block2">
@@ -518,8 +533,8 @@
             </p>
             <p class="poetry-block2-price"><del>Rs. 499</del> Rs. 180</p>
             <h4>Hardcover</h4>
-            <p class="poetry-block2-end">Add to Wishlist</p>
-            <p class="poetry-block2-end2">Buy Now</p>
+            <p class="poetry-block2-end" onclick="alert('Added To Wishlist')">Add to Wishlist</p>
+            <p class="poetry-block2-end2" onclick="alert('Sorry! This is just an Demo Webpage.')">Buy Now</p>
           </div>
         </div>
         <div class="poetry-block3">
@@ -540,8 +555,8 @@
             </p>
             <p class="poetry-block3-price"><del>Rs. 499</del> Rs. 165</p>
             <h4>Hardcover</h4>
-            <p class="poetry-block3-end">Add to Wishlist</p>
-            <p class="poetry-block3-end2">Buy Now</p>
+            <p class="poetry-block3-end" onclick="alert('Added To Wishlist')">Add to Wishlist</p>
+            <p class="poetry-block3-end2" onclick="alert('Sorry! This is just an Demo Webpage.')">Buy Now</p>
           </div>
         </div>
         <div class="poetry-block4">
@@ -562,8 +577,8 @@
             </p>
             <p class="poetry-block4-price"><del>Rs. 499</del> Rs. 199</p>
             <h4>Hardcover</h4>
-            <p class="poetry-block4-end">Add to Wishlist</p>
-            <p class="poetry-block4-end2">Buy Now</p>
+            <p class="poetry-block4-end" onclick="alert('Added To Wishlist')">Add to Wishlist</p>
+            <p class="poetry-block4-end2" onclick="alert('Sorry! This is just an Demo Webpage.')">Buy Now</p>
           </div>
         </div>
         <div class="poetry-block5">
@@ -584,8 +599,8 @@
             </p>
             <p class="poetry-block5-price"><del>Rs. 599</del> Rs. 249</p>
             <h4>Hardcover</h4>
-            <p class="poetry-block5-end">Add to Wishlist</p>
-            <p class="poetry-block5-end2">Buy Now</p>
+            <p class="poetry-block5-end" onclick="alert('Added To Wishlist')">Add to Wishlist</p>
+            <p class="poetry-block5-end2" onclick="alert('Sorry! This is just an Demo Webpage.')">Buy Now</p>
           </div>
         </div>
       </div>
@@ -625,7 +640,7 @@
           />
         </div>
       </div>
-      <button class="btn">Submit</button>
+      <button class="btn" onclick="alert('Submitted')">Submit</button>
     </section>
 
     <footer>

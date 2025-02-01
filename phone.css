@@ -1,0 +1,11 @@
+.navDet{
+    flex-direction: column;
+}
+
+.navbar-elements{
+    flex-direction: column;
+}
+
+#categs{
+    padding-left: 215px;
+}
